@@ -1,15 +1,18 @@
+function insertText(id, text) {
+    document.getElementById(id).innerHTML = text;
+}
 function sayHello() {
-    alert('Greetings, traveller!');
+    insertText('hello', 'Greetings, traveller!');
 }
 function myName() {
-    alert('I am Juuso, nice to meet you');
+    insertText('who', 'I am Juuso');
 }
 function myThings() {
-    alert('I am a test lead')
+    insertText('what', 'I works as a Test Lead');
 }
 function myCustomer() {
-    alert('I work at SOK')
+    insertText('customer', 'My client is SOK');
 }
 function myExpertise() {
-    alert('My expertise is not JS :D')
+    insertText('expertise', 'I am still learning...');
 }
