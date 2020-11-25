@@ -16,3 +16,7 @@ function myCustomer() {
 function myExpertise() {
     insertText('expertise', 'I am still learning...');
 }
+function clickMe() {
+    alert('Hello World!');
+    location.reload();
+}
